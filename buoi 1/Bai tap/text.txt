@@ -1,0 +1,16 @@
+1. Lập trình hướng đối tượng (OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối tượng.
+-Một đối tượng bao gồm 2 thông tin: phương thức và thuộc tính
+    + thuộc tính là những đặc điểm,thông tin của đối tượng. 
+    + phương thức là những hoạt động,thao tác của của đối tượng đó có thể thực hiện. 
+
+- lớp: Là các đối tượng có các đặc tính tương tự nhau thì được gom lại tạo thành một lớp đối tượng.
+
+-Các nguyên lý cơ bản của OOP:
+    + Tính đóng gói (Encapsulation): là các thuộc tính và phương thức đắc thù , riêng biệt sẽ được khai báo ở private . đảm bảo cho tính đặc thù riêng và đóng gói.
+    + Tính kế thừa (Inheritance): lớp con có thể kế thừa từ lớp cha và tận dụng lại những phương thức của lớp cha,ngoài ra có thể mở rộng và bổ sung thêm các thành phần mới.
+     Một số loại kế thừa từng gặp: đơn kế thừa, đa kế thừa, kế thừa đa cấp, kế thừa thứ bậc.
+    + Tính trừu tượng(Abstraction): là mô phỏng lại những đối tượng ngoài đời vào thành code phù hợp cho việc giải quyết bài toán đang lập trình.
+    + Tính đa hình (Polymorphism): là ta có thể thực hiện một hành động (phương thức) với nhiều cách khác nhau. 
+    Một số phương thức đa hình rõ ràng nhất là ở ghi đè và nạp chồng
+         * ghi đè là ở lớp cha đã có hành động đó , nhưng lớp con cũng có hành động đó nhưng khong giống lớp cha nên ta có thể ghi đè lại hành động đó(phương thức)
+         * nạp chồng là cùng là hành động(phương thức) đó nhưng kiểu dữ liệu và đưa vào và số lượng tham số đưa vào là khác nhau. 

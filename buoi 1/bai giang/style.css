@@ -1,0 +1,42 @@
+*{
+    font-family: homemade apple;
+}
+#question {
+    background-color: pink;
+    color:red ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 10px;
+}
+.yesno {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: violet;
+    font-size: 20px;
+}
+#yes{
+    background-color: black;
+}
+#no{
+    background-color: green;
+}
+#answer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#kill {
+    width: 500px;
+    margin: auto;
+}
+.reverse {
+    flex-direction: row-reverse;
+}

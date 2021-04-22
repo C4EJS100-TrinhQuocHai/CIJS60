@@ -1,0 +1,20 @@
+.comic-container {
+    width: 250px;
+    height: 300px;
+}
+.comic-container .comic-image {
+    padding: 10px;
+    height: 300px;
+    background-image: url('https://media.vov.vn/uploaded/9eqrbt2uv7o/2019_12_20/sabo_full_2464385_ohac.jpg');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    border
+}
+.comic-container .comic-image > * {
+    padding: 10px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #898dbf;
+    display: inline-block;
+}

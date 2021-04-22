@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background: url(https://anhdep.tv/attachments/2c9c9522356d4b21d5c77a4adecffb7b-jpeg.11982/); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+button {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 250px;
+  background: #585858;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  150px;
+    height: 100%;
+    text-align: center;
+}
+input {
+    background-color: rgb(201, 195, 195);
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    max-width: 50%;
+    min-height: 400px;
+}
+.social {
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+.fab{
+    font-family: 'Dela Gothic One', cursive;
+    color: black;
+}
